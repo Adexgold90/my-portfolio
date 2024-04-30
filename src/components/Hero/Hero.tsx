@@ -1,4 +1,3 @@
-import heroImage from "/assets/hero/heroImage.png";
 import myImage from "/assets/hero/myImage.jpg";
 import styles from "./Hero.module.css";
 
@@ -16,7 +15,7 @@ const Hero = () => {
         </a>
       </div>
       <div className={styles.heroImgContainer}>
-      <img src={myImage} alt="Mujeeb's photo" className={styles.heroImg} />
+        <img src={myImage} alt="Mujeeb's photo" className={styles.heroImg} />
       </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

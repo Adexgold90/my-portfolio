@@ -1,9 +1,18 @@
 import styles from "./ProjectCard.module.css";
 
-type Props = {};
+interface ProjectCardProps {
+  project: {
+    title: string;
+    imageSrc: string;
+    description: string;
+    skills: string[];
+    demo: string;
+    source: string;
+  };
+}
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
-}) => {
+}: ProjectCardProps) => {
   return (
     <div className={styles.container}>
       <img src={imageSrc} alt={`Image of ${title}`} className={styles.image} />

@@ -1,12 +1,11 @@
-import { getImageUrl } from "../../utils";
 import styles from "./Navbar.module.css";
 import menuIcon from "/assets/nav/menuIcon.png";
 import closeIcon from "/assets/nav/closeIcon.png";
 
 import "/assets/nav/menuIcon.png";
 import { useState } from "react";
-type Props = {};
-const Navbar = (props: Props) => {
+
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>

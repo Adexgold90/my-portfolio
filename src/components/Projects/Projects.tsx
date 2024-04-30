@@ -3,8 +3,7 @@ import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
-type Props = {};
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>

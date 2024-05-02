@@ -3,9 +3,10 @@
     "title": "Hotel Booking App (in development)",
     "imageSrc": "assets/projects/project.png",
     "description": "This is a getaway hotel booking app",
-    "skills": ["React", "TypeScript", "Express", "Node"],
+    "skills": ["React", "TypeScript", "Express", "Node", "Tailwind CSS"],
     "demo": "#",
-    "source": "https://www.github.com"
+    "FE source": "https://github.com/mujeebcodes/hotel-booking-app-frontend",
+    "BE source": "https://github.com/mujeebcodes/hotel-booking-app-backend"
   },
   {
     "title": "Food Ordering App (in development)",
@@ -21,14 +22,14 @@
     ],
     "demo": "https://www.example.com",
     "FE source": "https://github.com/mujeebcodes/AllEats-frontend",
-    "BE source": "https://github.com/mujeebcodes/AllEats-frontend"
+    "BE source": "https://github.com/mujeebcodes/AllEats-backend"
   },
   {
     "title": "Blog API",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a backend API for a blog, featuring authentication and authorization with JWT. No interface",
+    "description": "This is a backend API for a blog, with authentication and authorization with JWT. Basic UI to interact with API in demo link",
     "skills": ["JavaScript", "Express", "Node", "MongoDB"],
-    "demo": "#",
+    "demo": "https://blog-website-fjtv.onrender.com/blog",
     "source": "https://github.com/mujeebcodes/blog-api"
   },
   {
@@ -37,6 +38,14 @@
     "description": "This is a backend API for a real-time fictional car booking app. No interface",
     "skills": ["JavaScript", "Express", "Node", "MongoDB"],
     "demo": "#",
+    "source": "https://github.com/mujeebcodes/car-ordering-service"
+  },
+  {
+    "title": "Eventful API",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a backend API for an event management app where users can enrol in events and creators can create events. Basic interface in demo link to interact",
+    "skills": ["TypeScript", "NestJS", "Node", "MongoDB"],
+    "demo": "https://eventful-client-amber.vercel.app/",
     "source": "https://github.com/mujeebcodes/car-ordering-service"
   }
 ]

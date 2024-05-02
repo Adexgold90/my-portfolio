@@ -1,26 +1,42 @@
 [
   {
-    "title": "Project A",
+    "title": "Hotel Booking App (in development)",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "description": "This is a getaway hotel booking app",
+    "skills": ["React", "TypeScript", "Express", "Node"],
+    "demo": "#",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "Food Ordering App (in development)",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "This is a real-time food ordering application",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Express",
+      "Node",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "FE source": "https://github.com/mujeebcodes/AllEats-frontend",
+    "BE source": "https://github.com/mujeebcodes/AllEats-frontend"
   },
   {
-    "title": "Project C",
+    "title": "Blog API",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This is a backend API for a blog, featuring authentication and authorization with JWT. No interface",
+    "skills": ["JavaScript", "Express", "Node", "MongoDB"],
+    "demo": "#",
+    "source": "https://github.com/mujeebcodes/blog-api"
+  },
+  {
+    "title": "Car ordering app API",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a backend API for a real-time fictional car booking app. No interface",
+    "skills": ["JavaScript", "Express", "Node", "MongoDB"],
+    "demo": "#",
+    "source": "https://github.com/mujeebcodes/car-ordering-service"
   }
 ]

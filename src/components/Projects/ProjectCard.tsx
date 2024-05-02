@@ -7,11 +7,23 @@ interface ProjectCardProps {
     description: string;
     skills: string[];
     demo: string;
-    source: string;
+    source?: string; // Making source optional
+    "FE source"?: string; // Making FE source optional
+    "BE source"?: string; // Making BE source optional
   };
 }
+
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: {
+    title,
+    imageSrc,
+    description,
+    skills,
+    demo,
+    source,
+    "FE source": feSource,
+    "BE source": beSource,
+  },
 }: ProjectCardProps) => {
   return (
     <div className={styles.container}>
@@ -28,12 +40,33 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <a href={demo} className={feSource ? styles.smallLink : styles.link}>
           Demo
         </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+        {source && (
+          <a
+            href={source}
+            className={feSource ? styles.smallLink : styles.link}
+          >
+            Code
+          </a>
+        )}
+        {feSource && (
+          <a
+            href={feSource}
+            className={feSource ? styles.smallLink : styles.link}
+          >
+            Frontend code
+          </a>
+        )}
+        {beSource && (
+          <a
+            href={beSource}
+            className={feSource ? styles.smallLink : styles.link}
+          >
+            Backend code
+          </a>
+        )}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import history from "../../data/history.json";
 const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>Skills & Experience</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {

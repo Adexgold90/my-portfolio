@@ -8,16 +8,32 @@
     "imageSrc": "assets/skills/css.png"
   },
   {
+    "title": "JavaScript",
+    "imageSrc": "assets/skills/javascript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "assets/skills/typescript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "assets/skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "NodeJS",
     "imageSrc": "assets/skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "assets/skills/graphql.png"
+    "title": "ExpressJS",
+    "imageSrc": "assets/skills/express.png"
+  },
+  {
+    "title": "NestJS",
+    "imageSrc": "assets/skills/nestjs.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "assets/skills/sql.jpg"
   },
   {
     "title": "MongoDB",

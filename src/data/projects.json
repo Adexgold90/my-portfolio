@@ -10,7 +10,7 @@
   {
     "title": "Car ordering app API",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is a backend API for a real-time fictional car booking app. No interface",
+    "description": "This is a backend API for a real-time fictional car booking app. Customers can book a ride and drivers can accept if no current trip. No interface",
     "skills": ["JavaScript", "Express", "Node", "MongoDB"],
     "demo": "#",
     "source": "https://github.com/mujeebcodes/car-ordering-service"

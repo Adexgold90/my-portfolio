@@ -1,30 +1,5 @@
 [
   {
-    "title": "Hotel Booking App (in development)",
-    "imageSrc": "assets/projects/project.png",
-    "description": "This is a getaway hotel booking app",
-    "skills": ["React", "TypeScript", "Express", "Node", "Tailwind CSS"],
-    "demo": "#",
-    "FE source": "https://github.com/mujeebcodes/hotel-booking-app-frontend",
-    "BE source": "https://github.com/mujeebcodes/hotel-booking-app-backend"
-  },
-  {
-    "title": "Food Ordering App (in development)",
-    "imageSrc": "assets/projects/project.png",
-    "description": "This is a real-time food ordering application",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Express",
-      "Node",
-      "Tailwind CSS",
-      "ShadCN"
-    ],
-    "demo": "https://www.example.com",
-    "FE source": "https://github.com/mujeebcodes/AllEats-frontend",
-    "BE source": "https://github.com/mujeebcodes/AllEats-backend"
-  },
-  {
     "title": "Blog API",
     "imageSrc": "assets/projects/project.png",
     "description": "This is a backend API for a blog, with authentication and authorization with JWT. Basic UI to interact with API in demo link",
@@ -47,5 +22,46 @@
     "skills": ["TypeScript", "NestJS", "Node", "MongoDB"],
     "demo": "https://eventful-client-amber.vercel.app/",
     "source": "https://github.com/mujeebcodes/car-ordering-service"
+  },
+  {
+    "title": "Hotel Booking App (in development)",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a getaway hotel booking app",
+    "skills": ["React", "TypeScript", "Express", "Node", "Tailwind CSS"],
+    "demo": "#",
+    "FE source": "https://github.com/mujeebcodes/hotel-booking-app-frontend",
+    "BE source": "https://github.com/mujeebcodes/hotel-booking-app-backend"
+  },
+  {
+    "title": "Food Ordering App (in development)",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a real-time food ordering application",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Express",
+      "Node",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
+    "demo": "#",
+    "FE source": "https://github.com/mujeebcodes/AllEats-frontend",
+    "BE source": "https://github.com/mujeebcodes/AllEats-backend"
+  },
+  {
+    "title": "Invoice App (in development)",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is an app for suppliers to track the invoices sent to their clients, paid or pending",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Express",
+      "Node",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
+    "demo": "#",
+    "FE source": "https://github.com/mujeebcodes/invoice-app-frontend",
+    "BE source": "https://github.com/mujeebcodes/invoice-app-backend"
   }
 ]

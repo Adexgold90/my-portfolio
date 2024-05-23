@@ -51,7 +51,7 @@
   {
     "title": "Invoice App (in development)",
     "imageSrc": "assets/projects/project.png",
-    "description": "This is an app for suppliers to track the invoices sent to their clients, paid or pending",
+    "description": "This is an app for suppliers to track the invoices sent to their clients",
     "skills": [
       "React",
       "TypeScript",

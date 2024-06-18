@@ -1,5 +1,21 @@
 [
   {
+    "title": "Ticketing App",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a ticketting app for a fictional IT company to assign tickets submitted by users",
+    "skills": ["TypeScript", "NextJS", "ShadCN", "AuthJS", "Prisma", "MongoDB"],
+    "demo": "https://ticketing-app-tawny.vercel.app/",
+    "source": "https://github.com/mujeebcodes/ticketing-app"
+  },
+  {
+    "title": "Holiday accomodation booking app",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is an AirBNB clone called EasyHolidays where people can book holiday homes",
+    "skills": ["TypeScript", "NextJS", "ShadCN", "AuthJS", "Prisma", "MongoDB"],
+    "demo": "https://easy-holidays.vercel.app/",
+    "source": "https://github.com/mujeebcodes/easy-holidays"
+  },
+  {
     "title": "Blog API",
     "imageSrc": "assets/projects/project.png",
     "description": "This is a backend API for a blog, with authentication and authorization with JWT. Basic UI to interact with API in demo link",
@@ -22,15 +38,6 @@
     "skills": ["TypeScript", "NestJS", "Node", "MongoDB"],
     "demo": "https://eventful-client-amber.vercel.app/",
     "source": "https://github.com/mujeebcodes/car-ordering-service"
-  },
-  {
-    "title": "Hotel Booking App (in development)",
-    "imageSrc": "assets/projects/project.png",
-    "description": "This is a getaway hotel booking app",
-    "skills": ["React", "TypeScript", "Express", "Node", "Tailwind CSS"],
-    "demo": "#",
-    "FE source": "https://github.com/mujeebcodes/hotel-booking-app-frontend",
-    "BE source": "https://github.com/mujeebcodes/hotel-booking-app-backend"
   },
   {
     "title": "Food Ordering App (in development)",
